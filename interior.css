@@ -1,0 +1,45 @@
+*{
+	font-family: Calibri;
+	transform-style: preserve-3d;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ffccff;
+}
+.container{
+	position: relative;
+	column-count: 3;
+	padding: 20px;
+
+}
+.image{
+	display: inline-block;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: #ffccff;
+}
+img{
+	width: 100%;
+	transition: 0.25 ease-in-out;
+}
+.image:hover img{
+	transform: scale(1.1);
+}
+h1{
+	position: absolute;
+	padding: 5px;
+	margin: 5px;
+	font-size: 25px;
+	background: #5c5c5c;
+	color: #ffffff;
+	border-radius: 5px;
+	opacity: 0;
+	z-index: 1;
+	transition: 0.25 ease-in-out;
+}
+
+.image:hover h1{
+	opacity: 0.5;
+}
+	
