@@ -1,0 +1,102 @@
+*{
+	font-family: Calibri;
+	transform-style: preserve-3d;
+	box-sizing: border-box;
+    transition:all .2s linear;
+  	text-transform: capitalize;
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+	background-image: url("C:/Users/Yogya/Desktop/New folder/images/26.jpeg");
+	background-blend-mode: luminosity ;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+}
+.container{
+	position: relative;
+	column-count: 3;
+	padding: 20px;
+
+}
+.navigation{
+	background-color:transparent ;  
+	float: top;
+	display: inline-block;
+	text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: Calibri;
+    display: block;
+    padding: 0 18px;   
+
+}
+.image{
+	display: inline-block;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+	transition: 0.25 ease-in-out;
+}
+.image:hover img{
+	transform: scale(1.1);
+}
+h1{
+	position: absolute;
+	padding: 5px;
+	margin: 5px;
+	font-size: 25px;
+	background: #5c5c5c;
+	color: #ffffff;
+	border-radius: 5px;
+	opacity: 0;
+	z-index: 1;
+	transition: 0.25 ease-in-out;
+}
+
+.image:hover h1{
+	opacity: 0.5;
+}
+.button{
+	float: right;
+ 	border: hidden;
+ 	border-color: black;
+  	color: #4CAF50;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	background-color: transparent;
+}	
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  	color: black;
+    height: 40px;
+    width: 175px;
+    color: #3498db;
+    font-size: 1.5em;
+}	
+.button1{
+	float: left;
+ 	border: hidden;
+ 	border-color: black;
+  	color: #4CAF50;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	background-color: transparent;
+}
